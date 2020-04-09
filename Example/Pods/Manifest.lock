@@ -1,15 +1,26 @@
 PODS:
-  - BlinkingLabel (0.1.0)
+  - AWSCore (2.13.1)
+  - AWSLogs (2.13.1):
+    - AWSCore (= 2.13.1)
+  - BlinkingLabel (0.1.0):
+    - AWSLogs (~> 2.13.1)
 
 DEPENDENCIES:
   - BlinkingLabel (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - AWSCore
+    - AWSLogs
 
 EXTERNAL SOURCES:
   BlinkingLabel:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BlinkingLabel: c3c9f76d586548b62181de8d2cf0d89e8dcf9b4e
+  AWSCore: ec394695d054fa4136b20ccd22d8901faea5de04
+  AWSLogs: edeb9cc7b076fdfa9d0cc8641c74c19b767bb045
+  BlinkingLabel: 16cda8ebaa4e89b164b39ac6a43c5cb30257cd6d
 
 PODFILE CHECKSUM: 5c21ac587a990948bf63f36da90541856721e8b3
 
